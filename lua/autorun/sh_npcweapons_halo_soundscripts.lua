@@ -34,6 +34,15 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_br/br-1.wav"
 })
+--HALO BRUTESHOT--
+sound.Add({
+	name = "swep_ai_halo_bruteshot_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_bruteshot/bruteshot-1.wav"
+})
 --HALO CARBINE--
 sound.Add({
 	name = "swep_ai_halo_carbine_fire_1",
