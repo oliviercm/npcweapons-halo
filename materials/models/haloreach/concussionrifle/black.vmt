@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models\HaloReach\ConcussionRifle\black"
-	"$translucent" 	"1"
-	"$nocull"		"1"
-	"$envmapmask" 	"models\HaloReach\ConcussionRifle\black"
-	"$selfillum_envmapmask_alpha" 1
-}
