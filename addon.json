@@ -1,0 +1,13 @@
+{
+	"title"		:	"NPC Weapons - Halo",
+	"type"		:	"weapon",
+	"tags"		:	[ "fun", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.git*",
+		"*.gma*"
+	]
+}

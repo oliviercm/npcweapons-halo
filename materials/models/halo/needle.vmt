@@ -1,0 +1,14 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\Halo\needle"
+   "$bumpmap" "models\Halo\needle_bump"
+   "$selfillum" "1"
+                "$model" "1"
+	"$phong"     "1"
+	"$phongexponent"  "50"
+	"$phongboost"   "1"
+	"$phongalbedotint" "1"
+	"$phongtint" "[151 .0 .151]"
+                "$phongfresnelranges"   "[0.5 2 4]"
+
+    } 

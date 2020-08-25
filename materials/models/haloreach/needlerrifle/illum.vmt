@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\HaloReach\NeedlerRifle\Illum"
+	"$translucent" 	"1"
+	"$nocull"		"1"
+	"$envmapmask" 	"models\HaloReach\NeedlerRifle\Illum"
+	"$selfillum_envmapmask_alpha" 1
+}

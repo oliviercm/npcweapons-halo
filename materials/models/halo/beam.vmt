@@ -1,0 +1,14 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\Halo\energy_blade_handle"
+   "$bumpmap" "models\Halo\energy_blade_handle_bump"
+   "$selfillum" "1"
+                "$model" "1"
+	"$phong"     "1"
+	"$phongexponent"  "50"
+	"$phongboost"   "1"
+	"$phongalbedotint" "1"
+	"$phongtint" "[0 .1 .15]"
+                "$phongfresnelranges"   "[0 .1 .7]"
+
+    } 

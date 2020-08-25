@@ -1,0 +1,12 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\battle_rifle_ammo"
+                "$model" "1"
+	"$phong"     "1"
+	"$phongexponent"  "10"
+	"$phongboost"   "2"
+	"$phongalbedotint" "1"
+	"$phongtint" "[0 .1 .10]"
+                "$phongfresnelranges"   "[0 .1 .7]"
+
+    } 

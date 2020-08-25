@@ -1,0 +1,5 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\HaloReach\weapons\MA37\unsc_decals_diffuse"
+	"$translucent" "1"
+}

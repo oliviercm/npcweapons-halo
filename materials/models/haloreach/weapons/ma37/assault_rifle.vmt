@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\HaloReach\weapons\MA37\assault_rifle"
+	"$bumpmap" "models\HaloReach\weapons\MA37\assault_rifle_bump"
+
+	$detail "models\HaloReach\weapons\MA37\detail_metal"
+	$detailscale 7
+	$detailblendfactor 1
+
+	$halflambert 1
+	$nocull 1
+
+	$Normalmapalphaenvmapmask 1	
+
+    $phong 1
+	// $phongexponent 7
+	$phongexponenttexture "models\HaloReach\weapons\MA37\HaloSP"
+	$phongboost	15
+	$phongalbedotint 1
+	$phongfresnelranges	"[1 1 1]"
+
+	$rimlight 1
+	$rimlightexponent 50
+	$rimlightboost 0.05
+}

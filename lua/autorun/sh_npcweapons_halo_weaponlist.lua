@@ -1,0 +1,1 @@
+list.Add("NPCUsableWeapons", {class = "swep_ai_halo_AR", title = "[NPCW] HALO ASSAULT RIFLE"})

@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models\HaloReach\NeedlerRifle\Needles"
+	"$bumpmap"	"models\HaloReach\NeedlerRifle\Needles_normal"
+	"$translucent" 	"1"
+	"$nocull"		"1"
+}

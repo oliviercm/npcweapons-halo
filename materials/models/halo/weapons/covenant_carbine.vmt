@@ -1,0 +1,15 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\Halo\Weapons\covenant_carbine"
+   "$bumpmap" "models\Halo\Weapons\covenant_carbine_bump"
+$nocull 1
+$selfillum 1
+                "$model" "1"
+	"$phong"     "1"
+	"$phongexponent"  "10"
+	"$phongboost"   "2"
+	"$phongalbedotint" "1"
+	"$phongtint" "[0 .1 .10]"
+                "$phongfresnelranges"   "[0 .1 .7]"
+
+    } 

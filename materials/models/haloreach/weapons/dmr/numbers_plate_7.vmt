@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\haloreach\weapons\DMR\numbers_plate_7"
+	"$translucent" 	"1"
+	"$nocull"		"1"
+	"$envmapmask" 	"models\haloreach\weapons\DMR\numbers_plate_7"
+	"$selfillum_envmapmask_alpha" 1
+}
