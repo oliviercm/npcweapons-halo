@@ -125,7 +125,7 @@ sound.Add({
 	sound = "weapons/npcweapons_halo_dmr/dmr-2.wav"
 })
 sound.Add({
-	name = "swep_ai_halo_dmr_fire_2",
+	name = "swep_ai_halo_dmr_fire_3",
 	channel = CHAN_WEAPON,
 	volume = NPC_WEAPONS_VOLUME_MAX,
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
