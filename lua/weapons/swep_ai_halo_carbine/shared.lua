@@ -35,7 +35,7 @@ SWEP.Primary.ClipSize			= 18
 SWEP.Primary.DefaultClip		= 18
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
-SWEP.Primary.Sound				= "swep_ai_halo_carbine_fire"
+SWEP.Primary.Sound				= {"swep_ai_halo_carbine_fire_1", "swep_ai_halo_carbine_fire_2","swep_ai_halo_carbine_fire_3"}
 
 SWEP.ClientModel				= {
 	model						= "models/weapons/npc_haloweapons/carbine.mdl",
