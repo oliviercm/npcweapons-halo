@@ -66,22 +66,6 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_br/br-5.wav"
 })
-sound.Add({
-	name = "swep_ai_halo_br_fire_6",
-	channel = CHAN_WEAPON,
-	volume = NPC_WEAPONS_VOLUME_MAX,
-	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
-	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
-	sound = "weapons/npcweapons_halo_br/br-6.wav"
-})
-sound.Add({
-	name = "swep_ai_halo_br_fire_7",
-	channel = CHAN_WEAPON,
-	volume = NPC_WEAPONS_VOLUME_MAX,
-	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
-	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
-	sound = "weapons/npcweapons_halo_br/br-7.wav"
-})
 --HALO CARBINE--
 sound.Add({
 	name = "swep_ai_halo_carbine_fire_1",
@@ -222,4 +206,46 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_NORM,
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_shotgun/shotgun-pump.mp3"
+})
+--HALO SMG--
+sound.Add({
+	name = "swep_ai_halo_smg_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_smg/smg-1.mp3"
+})
+--HALO SNIPER RIFLE--
+sound.Add({
+	name = "swep_ai_halo_sniper_rifle_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_sniper_rifle_fire_2",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-2.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_sniper_rifle_fire_3",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_sniper_rifle_fire_4",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-4.wav"
 })
