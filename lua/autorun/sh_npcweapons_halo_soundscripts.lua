@@ -1,4 +1,4 @@
-include("npcweapons/sh_npcweapons_constants.lua")
+include("autorun/sh_npcweapons_constants.lua")
 
 --HALO ASSAULT RIFLE--
 sound.Add({
