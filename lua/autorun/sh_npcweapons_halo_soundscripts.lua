@@ -186,7 +186,40 @@ sound.Add({
 	name = "swep_ai_halo_needler_hit",
 	channel = CHAN_WEAPON,
 	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_needler/needler-hit.wav"
+})
+--HALO SHOTGUN--
+sound.Add({
+	name = "swep_ai_halo_shotgun_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
-	sound = "weapons/npcweapons_halo_needler/needler-hit.wav"
+	sound = "weapons/npcweapons_halo_shotgun/shotgun-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_shotgun_fire_2",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_shotgun/shotgun-2.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_shotgun_fire_3",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_shotgun/shotgun-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_shotgun_pump",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_shotgun/shotgun-pump.mp3"
 })
