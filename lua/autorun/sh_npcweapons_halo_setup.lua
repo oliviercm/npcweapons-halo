@@ -13,7 +13,7 @@ if not file.Exists("weapons/swep_ai_base/shared.lua", "LUA") then
 				Color(255, 255, 255),
 				"NPC Weapons Base not detected. Visit ",
 				Color(173, 216, 230),
-				"https://steamcommunity.com/sharedfiles/filedetails/?id=632126535 ",
+				"https://steamcommunity.com/sharedfiles/filedetails/?id=2209643429 ",
 				Color(255, 255, 255),
 				"to download NPC Weapons Base."
 			)
