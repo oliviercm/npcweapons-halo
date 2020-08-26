@@ -12,5 +12,5 @@ list.Add("NPCUsableWeapons", {class = "swep_ai_halo_smg", title = "[NPCW] HALO S
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_sniper_rifle", title = "[NPCW] HALO SNIPER RIFLE"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_spiker", title = "[NPCW] HALO SPIKER"})
 
-list.Add("NPCUsableWeapons", {class = "swep_ai_random_halo_unsc", title = "[NPCW] [RANDOM] HALO UNSC"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_random_halo_covenant", title = "[NPCW] [RANDOM] HALO COVENANT"})
+list.Add("NPCUsableWeapons", {class = "swep_ai_random_halo_unsc", title = "[NPCW] [RANDOM] HALO UNSC"})
