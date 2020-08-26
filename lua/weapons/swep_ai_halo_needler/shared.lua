@@ -9,7 +9,7 @@ SWEP.HoldType					= "smg"
 
 SWEP.MuzzleEffect    			= "NPC_Needler_Muzzle_Effect"
 SWEP.EnableShellEffect			= false
-SWEP.TracerEffect				= "Needler_Tracer"
+SWEP.TracerEffect				= ""
 SWEP.ReloadSounds				= {}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED

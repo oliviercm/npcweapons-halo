@@ -12,7 +12,7 @@ SWEP.ShellEffect				= "PistolShellEject"
 SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {}
 
-SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
+SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_LOW
 SWEP.Primary.DamageMin			= 10
 SWEP.Primary.DamageMax			= 12
 SWEP.Primary.MinDropoffDistance	= NPC_WEAPONS_MIN_DROPOFF_DISTANCE_PISTOL
@@ -36,7 +36,7 @@ SWEP.ClientModel				= {
 	model						= "models/magnum.mdl",
 	pos							= Vector(5, 1.8, -0.6),
 	angle						= Angle(180, -90, 5),
-	size						= Vector(1.1, 1.1, 1.1),
+	size						= Vector(1, 1, 1),
 	color						= Color(255, 255, 255, 255),
 	skin						= 0,
 	bodygroup					= {},

@@ -16,7 +16,6 @@ SWEP.ExtraShootEffects			= {
 	{ EffectName = "Sparks", Scale = 1, Magnitude = 1, Radius = 1 },
 }
 
-
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
 SWEP.Primary.DamageMin			= 50
 SWEP.Primary.DamageMax			= 50
