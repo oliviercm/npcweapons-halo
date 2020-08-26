@@ -9,8 +9,13 @@ SWEP.HoldType					= "ar2"
 
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
-SWEP.TracerEffect				= "Tracer"
+SWEP.TracerEffect				= ""
 SWEP.ReloadSounds				= {}
+SWEP.ExtraShootEffects			= {
+	{ EffectName = "Sniper_Bullet_Contrail", Scale = 4 },
+	{ EffectName = "Sparks", Scale = 1, Magnitude = 1, Radius = 1 },
+}
+
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
 SWEP.Primary.DamageMin			= 50
