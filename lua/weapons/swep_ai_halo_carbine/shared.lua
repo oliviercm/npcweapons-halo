@@ -13,7 +13,7 @@ SWEP.EnableShellEffect    		= false
 SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {}
 SWEP.ExtraShootEffects			= {
-	{ EffectName = "NPC_ConvCarb_Beam", Scale =  0.2 },
+	{ EffectName = "NPC_ConvCarb_Beam", Scale = 0.2 },
 	{ EffectName = "NPC_ConvCarb_Impact", Scale = 0.2 },
 }
 

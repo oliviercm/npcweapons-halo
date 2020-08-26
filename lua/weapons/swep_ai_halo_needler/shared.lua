@@ -13,8 +13,8 @@ SWEP.TracerEffect				= "Needler_Tracer"
 SWEP.ReloadSounds				= {}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
-SWEP.Primary.DamageMin			= 6
-SWEP.Primary.DamageMax			= 8
+SWEP.Primary.DamageMin			= 4
+SWEP.Primary.DamageMax			= 6
 SWEP.Primary.MinDropoffDistance	= NPC_WEAPONS_MIN_DROPOFF_DISTANCE_SMG
 SWEP.Primary.MaxDropoffDistance	= NPC_WEAPONS_MAX_DROPOFF_DISTANCE_SMG
 SWEP.Primary.Force				= 9

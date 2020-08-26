@@ -34,7 +34,7 @@ SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
 SWEP.Primary.Sound				= "swep_ai_halo_bruteshot_fire_1"
 
 SWEP.ExplosionRadius			= 200
-SWEP.RocketSpeed				= 800
+SWEP.RocketSpeed				= 1000
 SWEP.RocketAcceleration			= 0
 
 SWEP.ClientModel				= {
