@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "Cov_Carbine_Muzzle"
 SWEP.EnableTracerEffect    		= false
 SWEP.EnableShellEffect    		= false
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0, "swep_ai_halo_carbine_reload"}}
+SWEP.ReloadSounds				= {{0.2, "swep_ai_halo_carbine_reload"}}
 SWEP.ExtraShootEffects			= {
 	{ EffectName = "NPC_ConvCarb_Beam", Scale = 0.2 },
 	{ EffectName = "NPC_ConvCarb_Impact", Scale = 0.2 },
