@@ -31,7 +31,7 @@ SWEP.Primary.ClipSize			= 36
 SWEP.Primary.DefaultClip		= 36
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
-SWEP.Primary.Sound				= "swep_ai_halo_br_fire_1"
+SWEP.Primary.Sound				= {"swep_ai_halo_br_fire_1", "swep_ai_halo_br_fire_2", "swep_ai_halo_br_fire_3", "swep_ai_halo_br_fire_4", "swep_ai_halo_br_fire_5", "swep_ai_halo_br_fire_6", "swep_ai_halo_br_fire_7"}
 
 SWEP.ClientModel				= {
 	model						= "models/weapons/npc_haloweapons/br.mdl",
