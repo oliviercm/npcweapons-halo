@@ -38,7 +38,7 @@ SWEP.RocketSpeed				= 1000
 SWEP.RocketAcceleration			= 0
 
 SWEP.ClientModel				= {
-	model						= "models/bshot.mdl",
+	model						= "models/brute_shot.mdl",
 	pos							= Vector(8, -0.7, 0),
 	angle						= Angle(-40, 1, 90),
 	size						= Vector(1, 1, 1),

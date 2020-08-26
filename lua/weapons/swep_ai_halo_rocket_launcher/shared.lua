@@ -33,7 +33,7 @@ SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
 SWEP.Primary.Sound				= "swep_ai_halo_smg_fire_1"
 
 SWEP.ClientModel				= {
-	model						= "models/rlaunch.mdl",
+	model						= "models/rocket.mdl",
 	pos							= Vector(3, 1, -1),
 	angle						= Angle(-101.25, 0, 90),
 	size						= Vector(1.2, 1.2, 1.2),

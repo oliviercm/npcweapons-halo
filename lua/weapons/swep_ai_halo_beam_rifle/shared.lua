@@ -34,7 +34,7 @@ SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
 SWEP.Primary.Sound				= {"swep_ai_halo_br_fire_1", "swep_ai_halo_br_fire_2", "swep_ai_halo_br_fire_3", "swep_ai_halo_br_fire_4", "swep_ai_halo_br_fire_5", "swep_ai_halo_br_fire_6", "swep_ai_halo_br_fire_7"}
 
 SWEP.ClientModel				= {
-	model						= "models/beamrifle.mdl",
+	model						= "models/h3beamrifle.mdl",
 	pos							= Vector(1, 0, -1),
 	angle						= Angle(90, 270, 0),
 	size						= Vector(1, 1, 1),

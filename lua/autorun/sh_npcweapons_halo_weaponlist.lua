@@ -7,8 +7,6 @@ list.Add("NPCUsableWeapons", {class = "swep_ai_halo_dmr", title = "[NPCW] HALO D
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_magnum", title = "[NPCW] HALO MAGNUM"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_needle_rifle", title = "[NPCW] HALO NEEDLE RIFLE"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_needler", title = "[NPCW] HALO NEEDLER"})
-list.Add("NPCUsableWeapons", {class = "swep_ai_halo_plasma_pistol", title = "[NPCW] HALO PLASMA PISTOL"})
-list.Add("NPCUsableWeapons", {class = "swep_ai_halo_plasma_rifle", title = "[NPCW] HALO PLASMA RIFLE"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_rocket_launcher", title = "[NPCW] HALO ROCKET LAUNCHER"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_shotgun", title = "[NPCW] HALO SHOTGUN"})
 list.Add("NPCUsableWeapons", {class = "swep_ai_halo_smg", title = "[NPCW] HALO SMG"})
