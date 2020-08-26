@@ -35,7 +35,7 @@ SWEP.Primary.Sound				= {"swep_ai_halo_br_fire_1", "swep_ai_halo_br_fire_2", "sw
 
 SWEP.ClientModel				= {
 	model						= "models/weapons/npc_haloweapons/br.mdl",
-	pos							= Vector(9.545, 1, -3.5),
+	pos							= Vector(9.545, 1, -4),
 	angle						= Angle(0, 90, -168.75),
 	size						= Vector(1, 1, 1),
 	color						= Color(255, 255, 255, 255),
