@@ -340,3 +340,60 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-4.wav"
 })
+--HALO SPIKER--
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_2",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-2.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_3",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_4",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-4.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_5",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-5.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_fire_6",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_spiker/spiker-6.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spike_impact",
+	channel = CHAN_WEAPON,
+	volume = 0.6,
+	level = 60,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_spiker/spike-impact.wav"
+})
