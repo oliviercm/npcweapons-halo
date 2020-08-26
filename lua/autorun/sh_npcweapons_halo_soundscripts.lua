@@ -232,6 +232,39 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_needler/needler-hit.wav"
 })
+--HALO ROCKET LAUNCHER--
+sound.Add({
+	name = "swep_ai_halo_rocket_launcher_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_rocket_launcher_fire_2",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-2.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_rocket_launcher_fire_3",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_rocket_launcher_fire_4",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-4.wav"
+})
 --HALO SHOTGUN--
 sound.Add({
 	name = "swep_ai_halo_shotgun_fire_1",
