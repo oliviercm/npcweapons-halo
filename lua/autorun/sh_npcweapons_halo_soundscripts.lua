@@ -25,6 +25,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_ar/ar-3.wav"
 })
+sound.Add({
+	name = "swep_ai_halo_ar_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_ar/ar-reload.wav"
+})
 --HALO BATTLE RIFLE--
 sound.Add({
 	name = "swep_ai_halo_br_fire_1",
@@ -82,6 +90,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_br/br-7.wav"
 })
+sound.Add({
+	name = "swep_ai_halo_br_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_br/br-reload.wav"
+})
 --HALO BRUTESHOT--
 sound.Add({
 	name = "swep_ai_halo_bruteshot_fire_1",
@@ -90,6 +106,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_bruteshot/bruteshot-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_bruteshot_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_bruteshot/bruteshot-reload.wav"
 })
 --HALO CARBINE--
 sound.Add({
@@ -116,6 +140,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_carbine/carbine-3.wav"
 })
+sound.Add({
+	name = "swep_ai_halo_carbine_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_carbine/carbine-reload.wav"
+})
 --HALO DMR--
 sound.Add({
 	name = "swep_ai_halo_dmr_fire_1",
@@ -140,6 +172,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_dmr/dmr-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_dmr_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_dmr/dmr-reload.wav"
 })
 --HALO MAGNUM--
 sound.Add({
@@ -174,6 +214,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_magnum/magnum-4.wav"
 })
+sound.Add({
+	name = "swep_ai_halo_magnum_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_magnum/magnum-reload.wav"
+})
 --HALO NEEDLE RIFLE--
 sound.Add({
 	name = "swep_ai_halo_needle_rifle_fire_1",
@@ -198,6 +246,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_needle_rifle/needle_rifle-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_needle_rifle_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_needle_rifle/needle_rifle-reload.wav"
 })
 --HALO NEEDLER--
 sound.Add({
@@ -232,6 +288,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_needler/needler-hit.wav"
 })
+sound.Add({
+	name = "swep_ai_halo_needler_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_needler/needler-reload.wav"
+})
 --HALO ROCKET LAUNCHER--
 sound.Add({
 	name = "swep_ai_halo_rocket_launcher_fire_1",
@@ -264,6 +328,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-4.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_rocket_launcher_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-reload.wav"
 })
 --HALO SHOTGUN--
 sound.Add({
@@ -298,6 +370,14 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_shotgun/shotgun-pump.mp3"
 })
+sound.Add({
+	name = "swep_ai_halo_shotgun_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_shotgun/shotgun-reload.wav"
+})
 --HALO SMG--
 sound.Add({
 	name = "swep_ai_halo_smg_fire_1",
@@ -306,6 +386,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_smg/smg-1.mp3"
+})
+sound.Add({
+	name = "swep_ai_halo_smg_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_smg/smg-reload.wav"
 })
 --HALO SNIPER RIFLE--
 sound.Add({
@@ -339,6 +427,14 @@ sound.Add({
 	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-4.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_sniper_rifle_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_sniper_rifle/sniper-reload.wav"
 })
 --HALO SPIKER--
 sound.Add({
@@ -396,4 +492,12 @@ sound.Add({
 	level = 60,
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_spiker/spike-impact.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_spiker_reload",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_RELOAD,
+	level = NPC_WEAPONS_SNDLVL_NORM,
+	pitch = NPC_WEAPONS_PITCH_NORM,
+	sound = "weapons/npcweapons_halo_spiker/spiker-reload.wav"
 })
