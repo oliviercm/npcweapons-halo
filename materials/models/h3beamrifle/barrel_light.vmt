@@ -1,0 +1,126 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/h3beamrifle/barrel_light_glow"
+
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "0.5"
+	"$phongalbedotint" "1"
+	"$phongtint" "[1 0.85 1]"
+	"$phongfresnelranges"	"[0.5 6 15]"
+
+	//"$color2" "[3 0 2]"
+	"$ambientocclusion" "1"
+	"$detail" "models/h3beamrifle/barrel_light"
+	"$detailscale" "10"
+	"$detailblendfactor" "0.2"
+	"$detailblendmode" "5"
+
+"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 20
+		}
+		"InvulnLevel"
+		{
+			"resultVar" "$invulnlevel"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnphongfading"
+			"greaterVar"	"$invulnphongfull"
+			"resultVar"	"$invulnphongoutput"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnfmaxfading"
+			"greaterVar"	"$invulnfmaxfull"
+			"resultVar"	"$invulnfmaxoutput"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnexponentfading"
+			"greaterVar"	"$invulnexponentfull"
+			"resultVar"	"$invulnexponentoutput"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnfmax"
+			"sineperiod" ".3"
+			"sinemin" "$invulnfmaxoutput"
+			"sinemax" "18"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnphong"
+			"sineperiod" "3"
+			"sinemin" "$invulnphongoutput"
+			"sinemax" "1"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnexponent"
+			"sineperiod" ".3"
+			"sinemin" "$invulnexponentoutput"
+			"sinemax" "13"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$invulnexponent"
+			"resultVar" "$selfillumfresnelminmaxexp[2]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$invulnfmax"
+			"resultVar" "$selfillumfresnelminmaxexp[1]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$invulnphong"
+			"resultVar" "$phongboost" 
+		}
+
+
+
+	
+		"TextureScroll"
+		{
+
+
+          "LinearRamp"
+            {
+                "rate" 4
+                "initialValue" 0.0
+                "resultVar" "$angle"
+            }
+
+
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" .1
+			"texturescrollangle" 90
+"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" -.00
+			"texturescrollangle" 90
+
+
+}
+			
+		"WaterLOD"
+		{
+		}
+			
+	}
+}		
+	
+

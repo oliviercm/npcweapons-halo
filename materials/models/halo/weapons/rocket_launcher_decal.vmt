@@ -1,0 +1,5 @@
+"UnLitGeneric"
+{
+	"$basetexture" "models\Halo\Weapons\rocket_launcher_decal"
+	"$transclucent" "1"
+} 
