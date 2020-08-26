@@ -10,7 +10,7 @@ SWEP.HoldType					= "ar2"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.TracerEffect				= ""
-SWEP.ReloadSounds				= {}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_halo_sniper_rifle_reload"}}
 SWEP.ExtraShootEffects			= {
 	{ EffectName = "Sniper_Bullet_Contrail", Scale = 4 },
 	{ EffectName = "Sparks", Scale = 1, Magnitude = 1, Radius = 1 },

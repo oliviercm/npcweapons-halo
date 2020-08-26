@@ -10,7 +10,7 @@ SWEP.HoldType					= "smg"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.EnableShellEffect			= false
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {}
+SWEP.ReloadSounds				= {{0, "swep_ai_halo_smg_reload"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 SWEP.Primary.DamageMin			= 3

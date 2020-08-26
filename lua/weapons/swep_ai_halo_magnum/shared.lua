@@ -10,7 +10,7 @@ SWEP.HoldType					= "pistol"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "PistolShellEject"
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_halo_magnum_reload"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_LOW
 SWEP.Primary.DamageMin			= 10

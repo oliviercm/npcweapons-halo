@@ -10,7 +10,7 @@ SWEP.HoldType					= "rpg"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.EnableShellEffect			= false
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {}
+SWEP.ReloadSounds				= {{0, "swep_ai_halo_rocket_launcher_reload"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
 SWEP.Primary.DamageMin			= 60
