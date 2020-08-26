@@ -34,9 +34,9 @@ SWEP.Primary.Sound				= "swep_ai_halo_smg_fire_1"
 
 SWEP.ClientModel				= {
 	model						= "models/rocket.mdl",
-	pos							= Vector(3, 1, -1),
-	angle						= Angle(-101.25, 0, 90),
-	size						= Vector(1.2, 1.2, 1.2),
+	pos							= Vector(-2, 0.5, -4),
+	angle						= Angle(180, -90, 10),
+	size						= Vector(1, 1, 1),
 	color						= Color(255, 255, 255, 255),
 	skin						= 0,
 	bodygroup					= {},
