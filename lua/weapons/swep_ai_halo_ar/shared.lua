@@ -4,7 +4,7 @@ DEFINE_BASECLASS("swep_ai_base")
 --HALO ASSAULT RIFLE
 --]]
 
-SWEP.WorldModel					= "models/weapons/npc_haloweapons/ma37.mdl"
+SWEP.WorldModel					= "models/weapons/w_rif_m4a1.mdl"
 SWEP.HoldType					= "ar2"
 
 SWEP.MuzzleEffect    			= "MuzzleEffect"
@@ -31,3 +31,13 @@ SWEP.Primary.DefaultClip		= 32
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
 SWEP.Primary.Sound				= {"swep_ai_halo_ar_fire_1", "swep_ai_halo_ar_fire_2", "swep_ai_halo_ar_fire_3"}
+
+SWEP.ClientModel				= {
+	model						= "models/ar.mdl",
+	pos							= Vector(9.545, 1, -3.5),
+	angle						= Angle(0, 90, -168.75),
+	size						= Vector(1, 1, 1),
+	color						= Color(255, 255, 255, 255),
+	skin						= 0,
+	bodygroup					= {},
+}
