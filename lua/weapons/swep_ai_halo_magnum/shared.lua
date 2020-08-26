@@ -30,7 +30,7 @@ SWEP.Primary.ClipSize			= 8
 SWEP.Primary.DefaultClip		= 8
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
-SWEP.Primary.Sound				= {"swep_ai_halo_dmr_fire_1", "swep_ai_halo_dmr_fire_2", "swep_ai_halo_dmr_fire_3"}
+SWEP.Primary.Sound				= {"swep_ai_halo_magnum_fire_1", "swep_ai_halo_magnum_fire_2", "swep_ai_halo_magnum_fire_3", "swep_ai_halo_magnum_fire_4"}
 
 SWEP.ClientModel				= {
 	model						= "models/magnum.mdl",

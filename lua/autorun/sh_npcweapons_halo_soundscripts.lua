@@ -141,6 +141,39 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
 	sound = "weapons/npcweapons_halo_dmr/dmr-3.wav"
 })
+--HALO MAGNUM--
+sound.Add({
+	name = "swep_ai_halo_magnum_fire_1",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_magnum/magnum-1.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_magnum_fire_2",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_magnum/magnum-2.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_magnum_fire_3",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_magnum/magnum-3.wav"
+})
+sound.Add({
+	name = "swep_ai_halo_magnum_fire_4",
+	channel = CHAN_WEAPON,
+	volume = NPC_WEAPONS_VOLUME_MAX,
+	level = NPC_WEAPONS_SNDLVL_GUNFIRE,
+	pitch = NPC_WEAPONS_PITCH_GUNFIRE,
+	sound = "weapons/npcweapons_halo_magnum/magnum-4.wav"
+})
 --HALO NEEDLE RIFLE--
 sound.Add({
 	name = "swep_ai_halo_needle_rifle_fire_1",
