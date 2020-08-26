@@ -39,8 +39,8 @@ SWEP.RocketAcceleration			= 0
 
 SWEP.ClientModel				= {
 	model						= "models/brute_shot.mdl",
-	pos							= Vector(8, -0.7, 0),
-	angle						= Angle(-40, 1, 90),
+	pos							= Vector(7, 0, 8),
+	angle						= Angle(-180, -100, -45),
 	size						= Vector(1, 1, 1),
 	color						= Color(255, 255, 255, 255),
 	skin						= 0,
