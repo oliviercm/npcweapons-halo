@@ -1,0 +1,26 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\Halo\Weapons 2.0\brute_bolter"
+   "$bumpmap" "models\Halo\Weapons 2.0\brute_bolter_bump"
+	$halflambert 1
+	$nocull 1
+
+	
+			
+	$detail "models\Halo\detail_metal"
+	$detailscale 7
+	$detailblendfactor 1
+	
+	$selfillum 1
+
+    $phong 1
+	// $phongexponent 7
+	$phongexponenttexture "models\Halo\HaloSP"
+	$phongboost	15
+	$phongalbedotint 1
+    $phongfresnelranges	"[.5 1.5 3.0]"
+
+	$rimlight 1
+	$rimlightexponent 50
+	$rimlightboost 0.05
+} 

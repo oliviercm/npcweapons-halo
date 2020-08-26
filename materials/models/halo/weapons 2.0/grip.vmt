@@ -1,0 +1,13 @@
+    "VertexLitGeneric"
+    {
+   "$basetexture" "models\Halo\Weapons 2.0\brute_bolter"
+   "$bumpmap" "models\Halo\Weapons 2.0\brute_bolter_bump"
+                "$model" "1"
+	"$phong"     "0"
+	"$phongexponent"  "10"
+	"$phongboost"   "2"
+	"$phongalbedotint" "1"
+	"$phongtint" "[0 .1 .10]"
+                "$phongfresnelranges"   "[0 .1 .7]"
+
+    } 
