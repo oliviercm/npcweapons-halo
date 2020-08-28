@@ -8,7 +8,7 @@ SWEP.WorldModel					= "models/weapons/w_pistol.mdl"
 SWEP.HoldType					= "pistol"
 
 SWEP.MuzzleEffect    			= "MuzzleEffect"
-SWEP.ShellEffect				= "PistolShellEject"
+SWEP.ShellEffect				= "ShellEject"
 SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {{0.4, "swep_ai_halo_magnum_reload"}}
 
