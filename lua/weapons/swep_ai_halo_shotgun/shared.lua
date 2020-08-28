@@ -9,6 +9,7 @@ SWEP.HoldType					= "shotgun"
 
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "ShotgunShellEject"
+SWEP.ShellEffectDelay			= 0.4
 SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {{0.4, "swep_ai_halo_shotgun_reload"}}
 
@@ -31,7 +32,7 @@ SWEP.Primary.DefaultClip		= 6
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
 SWEP.Primary.Sound				= {"swep_ai_halo_shotgun_fire_1", "swep_ai_halo_shotgun_fire_2", "swep_ai_halo_shotgun_fire_3"}
-SWEP.Primary.BoltSound			= "swep_ai_halo_shotgun_pump"
+SWEP.Primary.ExtraSounds		= {{0.4, "swep_ai_halo_shotgun_pump"}}
 
 SWEP.ClientModel				= {
 	model						= "models/weapons/npc_haloweapons/shotty.mdl",
@@ -42,41 +43,3 @@ SWEP.ClientModel				= {
 	skin						= 0,
 	bodygroup					= {},
 }
-
-function SWEP:ShootEffects()
-	
-	self:EmitSound(type(self.Primary.Sound) == "string" and self.Primary.Sound or self.Primary.Sound[math.random(#self.Primary.Sound)])
-
-	timer.Simple(0.4, function()
-
-		if IsValid(self) and IsValid(self:GetOwner()) then
-
-			sound.Play(self.Primary.BoltSound, self:GetPos(), SNDLVL_NORM)
-			
-			local shellEffect = EffectData()
-			local shellAttach = self:GetAttachment(self.ShellAttachment)
-			shellEffect:SetEntity(self)
-			shellEffect:SetOrigin(shellAttach.Pos)
-			shellEffect:SetAngles(shellAttach.Ang)
-			shellEffect:SetScale(1)
-			shellEffect:SetMagnitude(1)
-			shellEffect:SetRadius(1)
-			util.Effect(self.ShellEffect, shellEffect)
-
-		end
-
-	end)
-
-	local muzzleEffect = EffectData()
-	local muzzleAttach = self:GetAttachment(self.MuzzleAttachment)
-	muzzleEffect:SetEntity(self)
-	muzzleEffect:SetOrigin(muzzleAttach.Pos)
-	muzzleEffect:SetAngles(muzzleAttach.Ang)
-	muzzleEffect:SetScale(1)
-	muzzleEffect:SetMagnitude(1)
-	muzzleEffect:SetRadius(1)
-	util.Effect(self.MuzzleEffect, muzzleEffect)
-	
-	self:GetOwner():MuzzleFlash()
-
-end
