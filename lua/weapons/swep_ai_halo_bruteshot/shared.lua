@@ -13,6 +13,9 @@ SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {{0, "swep_ai_halo_bruteshot_reload"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
+
+SWEP.Primary.Type               = "projectile"
+SWEP.Primary.DamageType         = DMG_BLAST
 SWEP.Primary.DamageMin			= 20
 SWEP.Primary.DamageMax			= 30
 SWEP.Primary.MinDropoffDistance	= NPC_WEAPONS_MIN_DROPOFF_DISTANCE_RIFLE
@@ -33,9 +36,27 @@ SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
 SWEP.Primary.Sound				= "swep_ai_halo_bruteshot_fire_1"
 
-SWEP.ExplosionRadius			= 200
-SWEP.RocketSpeed				= 1000
-SWEP.RocketAcceleration			= 0
+SWEP.AimForBody     			= true
+
+SWEP.ProjectileModel            = "models/Items/AR2_Grenade.mdl"
+SWEP.ProjectileStartSpeed       = 1000
+SWEP.ProjectileAcceleration	    = 0
+SWEP.ProjectileHitEffect        = { Name = "Explosion", Radius = 1, Magnitude = 1, Scale = 1 }
+SWEP.ProjectileHitSound         = nil
+SWEP.ProjectileLoopingSound     = "swep_ai_halo_rocket_launcher_rocket_sound"
+SWEP.ProjectileRotationSpeed    = 1000
+SWEP.ProjectileIsExplosive      = true
+SWEP.ProjectileExplosionRadius  = 200
+SWEP.ProjectileTrail            = {
+    Attachment = 0,
+    Color = Color(255, 255, 255, 200),
+    Additive = true,
+    StartWidth = 5,
+    EndWidth = 0,
+    Lifetime = 0.3,
+    TextureRes = 0,
+    Texture = "trails/smoke.vmt",
+}
 
 SWEP.ClientModel				= {
 	model						= "models/brute_shot.mdl",
@@ -46,34 +67,3 @@ SWEP.ClientModel				= {
 	skin						= 0,
 	bodygroup					= {},
 }
-
-function SWEP:Shoot()
-
-	local owner = self:GetOwner()
-	local enemy = owner:GetEnemy()
-	local muzzlePos = owner:GetPos():Distance(enemy:GetPos()) > 128 and self:GetAttachment(self.MuzzleAttachment).Pos or owner:WorldSpaceCenter()
-	local targetPos = enemy:BodyTarget(muzzlePos) or enemy:WorldSpaceCenter()
-	local inaccuracy = self.Primary.Spread
-	local shootAngle = Vector(targetPos.x - muzzlePos.x, targetPos.y - muzzlePos.y, targetPos.z - muzzlePos.z):Angle()
-	shootAngle.p = shootAngle.p + math.Rand(-inaccuracy, inaccuracy)
-	shootAngle.y = shootAngle.y + math.Rand(-inaccuracy, inaccuracy)
-	
-	local rocket = ents.Create("ai_rocket_projectile")
-	rocket:SetPos(muzzlePos)
-	rocket:SetAngles(shootAngle)
-	rocket:SetOwner(owner)
-	rocket.Damage = math.random(self.Primary.DamageMin, self.Primary.DamageMax)
-	rocket.Speed = self.RocketSpeed
-	rocket.Acceleration = self.RocketAcceleration
-	rocket.ExplosionRadius = self.ExplosionRadius
-	rocket.Owner = owner
-	
-	rocket:Spawn()
-
-	rocket:SetModel("models/Items/AR2_Grenade.mdl")
-	
-	self:ShootEffects()
-	
-	self:TakePrimaryAmmo(1)
-	
-end
