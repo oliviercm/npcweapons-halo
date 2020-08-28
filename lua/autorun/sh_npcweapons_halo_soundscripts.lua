@@ -337,6 +337,15 @@ sound.Add({
 	pitch = NPC_WEAPONS_PITCH_NORM,
 	sound = "weapons/npcweapons_halo_rocket_launcher/rocket-reload.wav"
 })
+sound.Add(
+{
+	name = "swep_ai_halo_rocket_launcher_rocket_sound",
+	channel = CHAN_AUTO,
+	volume = 0.6,
+	level = 80,
+	pitch = {90, 110},
+	sound = "weapons/rpg/rocket1.wav"
+})
 --HALO SHOTGUN--
 sound.Add({
 	name = "swep_ai_halo_shotgun_fire_1",

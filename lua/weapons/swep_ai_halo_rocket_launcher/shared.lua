@@ -13,6 +13,8 @@ SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {{0, "swep_ai_halo_rocket_launcher_reload"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
+
+SWEP.Primary.Type		    	= "rocket"
 SWEP.Primary.DamageMin			= 60
 SWEP.Primary.DamageMax			= 60
 SWEP.Primary.Force				= 0
@@ -30,9 +32,14 @@ SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_HIGH
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_HIGH
 SWEP.Primary.Sound				= {"swep_ai_halo_rocket_launcher_fire_1", "swep_ai_halo_rocket_launcher_fire_2", "swep_ai_halo_rocket_launcher_fire_3", "swep_ai_halo_rocket_launcher_fire_4"}
 
-SWEP.ExplosionRadius			= 256
-SWEP.RocketSpeed				= 800
+SWEP.RocketModel                = "models/weapons/w_missile.mdl"
+SWEP.RocketExplosionRadius		= 256
+SWEP.RocketStartSpeed			= 800
 SWEP.RocketAcceleration			= 250
+SWEP.RocketRocketRotationSpeed  = 1000
+SWEP.RocketLoopingSound         = "swep_ai_halo_rocket_launcher_rocket_sound"
+
+SWEP.AimForHeadTable			= {}
 
 SWEP.ClientModel				= {
 	model						= "models/rocket.mdl",
@@ -43,32 +50,3 @@ SWEP.ClientModel				= {
 	skin						= 0,
 	bodygroup					= {},
 }
-
-function SWEP:Shoot()
-
-	local owner = self:GetOwner()
-	local enemy = owner:GetEnemy()
-	local muzzlePos = owner:GetPos():Distance(enemy:GetPos()) > 128 and self:GetAttachment(self.MuzzleAttachment).Pos or owner:WorldSpaceCenter()
-	local targetPos = enemy:BodyTarget(muzzlePos) or enemy:WorldSpaceCenter()
-	local inaccuracy = self.Primary.Spread
-	local shootAngle = Vector(targetPos.x - muzzlePos.x, targetPos.y - muzzlePos.y, targetPos.z - muzzlePos.z):Angle()
-	shootAngle.p = shootAngle.p + math.Rand(-inaccuracy, inaccuracy)
-	shootAngle.y = shootAngle.y + math.Rand(-inaccuracy, inaccuracy)
-	
-	local rocket = ents.Create("ai_rocket_projectile")
-	rocket:SetPos(muzzlePos)
-	rocket:SetAngles(shootAngle)
-	rocket:SetOwner(owner)
-	rocket.Damage = math.random(self.Primary.DamageMin, self.Primary.DamageMax)
-	rocket.Speed = self.RocketSpeed
-	rocket.Acceleration = self.RocketAcceleration
-	rocket.ExplosionRadius = self.ExplosionRadius
-	rocket.Owner = owner
-	
-	rocket:Spawn()
-	
-	self:ShootEffects()
-	
-	self:TakePrimaryAmmo(1)
-	
-end
