@@ -11,6 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.EnableShellEffect			= false
 SWEP.TracerEffect				= "Tracer"
 SWEP.ReloadSounds				= {{0, "swep_ai_halo_rocket_launcher_reload"}}
+SWEP.ImpactDecal				= "Scorch"
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
 
